@@ -9,7 +9,7 @@ void ft_reverse_alphabet()
 		write(1, &letra, 1);
 		letra--;
 	}
-	write(1, "\n", 1);
+
 }		
 int main(void)
 {
