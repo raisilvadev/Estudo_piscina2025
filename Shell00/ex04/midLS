@@ -1,0 +1,1 @@
+for f in *; do [ -d "$f" ] && echo "$(stat -c %W "$f") $f/" || echo "$(stat -c %W "$f") $f"; done | sort -n | cut -d" " -f2- | paste -sd, -
